@@ -13,15 +13,6 @@ fields:
     maxSize: 4
   label: Featured image
   description: The main image of your blog post
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Content
 - name: categories
   type: tag_list
   default: []
