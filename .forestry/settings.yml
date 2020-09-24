@@ -11,8 +11,8 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
-upload_dir: ''
-public_path: ''
+upload_dir: uploads
+public_path: https://distracted-clarke-34e299.netlify.app/uploads
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
