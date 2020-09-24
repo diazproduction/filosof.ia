@@ -12,7 +12,7 @@ sections:
   create: documents
   match: "**/*"
 upload_dir: uploads
-public_path: https://distracted-clarke-34e299.netlify.app/uploads
+public_path: https://distracted-clarke-34e299.netlify.app/.netlify/large-media
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
