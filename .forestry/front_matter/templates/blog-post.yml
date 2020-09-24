@@ -1,0 +1,36 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: featured_image
+  type: file
+  config:
+    maxSize: 4
+  label: Featured image
+  description: The main image of your blog post
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+- name: language
+  type: select
+  default: english
+  config:
+    required: true
+    options:
+    - english
+    - spanish
+    - portuguese
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
+pages:
+- content/posts/welcome-to-my-blog.md
