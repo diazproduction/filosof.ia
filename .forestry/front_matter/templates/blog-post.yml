@@ -32,3 +32,5 @@ fields:
       file: 
       path: 
   label: Language
+pages:
+- content/posts/welcome-to-my-blog.md
